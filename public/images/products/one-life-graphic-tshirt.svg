@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<defs></defs>
+<rect width="100%" height="100%" fill="#F2F0F1"/>
+
+<path d="M88,30 L30,72 L60,132 L96,110 L120,72 Z" fill="#5B5B44"/>
+<path d="M312,30 L370,72 L340,132 L304,110 L280,72 Z" fill="#5B5B44"/>
+<path d="M138,96 L88,30 L30,72 L60,132 L96,110 L96,330 Q200,352 304,330 L304,110 L340,132 L370,72 L312,30 L262,96 Q200,132 138,96 Z" fill="#5B5B44"/>
+<path d="M138,96 L88,30 L30,72 L60,132 L96,110 L96,330 Q200,352 304,330 L304,110 L340,132 L370,72 L312,30 L262,96 Q200,132 138,96 Z" fill="none" stroke="#00000014" stroke-width="2"/>
+<g>
+  <circle cx="200" cy="195" r="42" fill="none" stroke="#00000022" stroke-width="4"/>
+  <text x="200" y="188" font-family="Georgia, serif" font-size="15" fill="#00000066" text-anchor="middle" letter-spacing="2">ONE LIFE</text>
+  <text x="200" y="206" font-family="Georgia, serif" font-size="8" fill="#00000055" text-anchor="middle" letter-spacing="3">ALWAYS &amp; FOREVER</text>
+  <line x1="170" y1="215" x2="230" y2="215" stroke="#00000044" stroke-width="1.5"/>
+</g>
+
+</svg>

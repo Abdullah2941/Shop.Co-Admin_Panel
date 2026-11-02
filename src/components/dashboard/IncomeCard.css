@@ -1,0 +1,9 @@
+.income-card { border-radius: var(--radius-lg); padding: 20px 22px; display: flex; align-items: center; gap: 14px; height: 100%; position: relative; overflow: hidden; transition: transform 0.2s var(--ease-out), box-shadow 0.2s ease; color: #fff; }
+.income-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-pop); }
+.income-card__icon { width: 42px; height: 42px; border-radius: 50%; background: rgba(255,255,255,0.22); display: flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; z-index: 1; }
+.income-card__value { font-family: var(--font-display); font-weight: 800; font-size: 20px; position: relative; z-index: 1; }
+.income-card__label { font-size: 12px; opacity: 0.85; margin-top: 2px; position: relative; z-index: 1; }
+.income-card--blue { background: linear-gradient(135deg, #4c8ef7, #2f5fd6); }
+.income-card--gold { background: linear-gradient(135deg, #3a3d5c, #26284a); }
+.income-card--gold .income-card__icon { background: linear-gradient(135deg, #f5c563, #d99a2b); color: #2a1e04; }
+.income-card::after { content: ""; position: absolute; width: 110px; height: 110px; border-radius: 50%; background: rgba(255,255,255,0.06); bottom: -50px; right: -30px; }

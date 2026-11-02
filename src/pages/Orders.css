@@ -1,0 +1,17 @@
+.orders-page__filter { margin-top: 16px; }
+.orders-page__filter label { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; color: var(--text-muted); }
+.orders-page__filter select, .orders-page__status { background: var(--surface-alt); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 8px 12px; font-size: 13px; color: var(--text); text-transform: capitalize; cursor: pointer; }
+.orders-page__status--delivered { color: var(--success); }
+.orders-page__status--cancelled { color: var(--danger); }
+.orders-page__status--pending { color: var(--warning); }
+.orders-page__status:disabled { opacity: 0.6; cursor: not-allowed; }
+.orders-page__detail ul { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.orders-page__detail li { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+.orders-page__detail li img { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; background: var(--surface-alt); }
+.orders-page__detail li div { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.orders-page__detail li div span { font-size: 12px; color: var(--text-faint); }
+.orders-page__detail dl { margin: 0 0 16px; display: flex; flex-direction: column; gap: 8px; }
+.orders-page__detail dl div { display: flex; justify-content: space-between; font-size: 14px; }
+.orders-page__detail dt { color: var(--text-muted); }
+.orders-page__detail dd { margin: 0; font-weight: 600; }
+.orders-page__address { font-size: 13px; color: var(--text-muted); margin: 0; }

@@ -1,0 +1,7 @@
+.admin-breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-muted); }
+.admin-breadcrumb__home { display: flex; color: var(--text-muted); transition: color 0.15s ease; }
+.admin-breadcrumb__home:hover { color: var(--text); }
+.admin-breadcrumb__item { display: inline-flex; align-items: center; gap: 6px; }
+.admin-breadcrumb__sep { color: var(--text-faint); }
+.admin-breadcrumb__current { color: var(--text); font-weight: 600; }
+.admin-breadcrumb__item a:hover { color: var(--text); text-decoration: underline; }

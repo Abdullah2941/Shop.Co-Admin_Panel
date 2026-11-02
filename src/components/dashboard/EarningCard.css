@@ -1,0 +1,7 @@
+.earning-card { background: linear-gradient(145deg, #8a6ff0, #6a4de0); border-radius: var(--radius-lg); padding: 22px; color: #fff; height: 100%; position: relative; overflow: hidden; transition: transform 0.2s var(--ease-out), box-shadow 0.2s ease; }
+.earning-card::after { content: ""; position: absolute; width: 140px; height: 140px; border-radius: 50%; background: rgba(255,255,255,0.08); top: -50px; right: -50px; }
+.earning-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-pop); }
+.earning-card__top { display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 1; }
+.earning-card__icon, .earning-card__trend { width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; }
+.earning-card__value { margin-top: 26px; font-family: var(--font-display); font-weight: 800; font-size: 28px; position: relative; z-index: 1; }
+.earning-card__label { margin-top: 6px; font-size: 13px; opacity: 0.85; position: relative; z-index: 1; }

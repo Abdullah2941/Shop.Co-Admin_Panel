@@ -1,0 +1,6 @@
+.customers-page__avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--purple), var(--blue)); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+.customers-page__form { display: flex; flex-direction: column; gap: 16px; }
+.customers-page__form label { display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--text-muted); }
+.customers-page__form input { background: var(--surface-alt); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 11px 14px; font-size: 14px; color: var(--text); }
+.customers-page__form input:focus { border-color: var(--purple); }
+.customers-page__form-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 6px; }

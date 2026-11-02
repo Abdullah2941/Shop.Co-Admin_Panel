@@ -1,0 +1,13 @@
+.product-grid-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: transform 0.2s var(--ease-out), box-shadow 0.2s ease; animation: fadeInUp 0.35s var(--ease-out) both; }
+.product-grid-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card); }
+.product-grid-card__image-wrap { position: relative; aspect-ratio: 1 / 1; background: #e9e9ee; }
+.product-grid-card__image-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.product-grid-card__badge { position: absolute; top: 10px; right: 10px; background: var(--danger); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 9px; border-radius: var(--radius-full); }
+.product-grid-card__body { padding: 16px; }
+.product-grid-card__body h3 { font-size: 15px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.product-grid-card__category { font-size: 12px; color: var(--text-faint); margin-top: 2px; }
+.product-grid-card__row { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; }
+.product-grid-card__price { font-weight: 700; font-size: 16px; }
+.product-grid-card__qty { font-size: 12px; color: var(--text-muted); }
+.product-grid-card__actions { display: flex; gap: 8px; margin-top: 14px; }
+.product-grid-card__actions .btn { flex: 1; padding: 9px 10px; font-size: 12px; }

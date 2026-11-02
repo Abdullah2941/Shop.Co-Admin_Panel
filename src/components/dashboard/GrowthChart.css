@@ -1,0 +1,10 @@
+.growth-chart__header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.growth-chart__eyebrow { font-size: 13px; color: var(--text-muted); }
+.growth-chart__total { font-family: var(--font-display); font-weight: 800; font-size: 24px; margin-top: 4px; }
+.growth-chart__range { position: relative; }
+.growth-chart__range-trigger { display: flex; align-items: center; gap: 8px; background: var(--surface-alt); padding: 9px 14px; border-radius: var(--radius-full); font-size: 13px; }
+.growth-chart__range-trigger .rotate { transform: rotate(180deg); transition: transform 0.2s ease; }
+.growth-chart__range-menu { position: absolute; right: 0; top: calc(100% + 8px); background: var(--surface-alt); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 6px; min-width: 150px; z-index: 10; animation: popIn 0.15s var(--ease-out); }
+.growth-chart__range-menu button { display: block; width: 100%; text-align: left; padding: 8px 10px; border-radius: 8px; font-size: 13px; color: var(--text-muted); }
+.growth-chart__range-menu button:hover { background: var(--surface-hover); color: var(--text); }
+.growth-chart__canvas { margin-top: 18px; }

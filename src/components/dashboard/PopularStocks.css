@@ -1,0 +1,21 @@
+.popular-stocks__header { display: flex; align-items: center; justify-content: space-between; }
+.popular-stocks__header h3 { font-size: 16px; font-weight: 700; }
+.popular-stocks__more { color: var(--text-faint); }
+.popular-stocks__featured { background: linear-gradient(145deg, #2c2f57, #232752); border-radius: var(--radius-md); padding: 16px; margin-top: 16px; }
+.popular-stocks__featured-top { display: flex; align-items: flex-start; justify-content: space-between; }
+.popular-stocks__featured-name { font-size: 13px; color: var(--text-muted); }
+.popular-stocks__featured-price { font-family: var(--font-display); font-weight: 700; font-size: 20px; margin-top: 4px; }
+.popular-stocks__profit-tag { font-size: 11px; background: var(--success-bg); color: var(--success); padding: 4px 10px; border-radius: var(--radius-full); font-weight: 600; }
+.popular-stocks__list { margin-top: 16px; display: flex; flex-direction: column; }
+.popular-stocks__row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.popular-stocks__row:last-child { border-bottom: none; }
+.popular-stocks__row-name { font-size: 14px; font-weight: 600; }
+.popular-stocks__row-right { display: flex; align-items: center; gap: 8px; }
+.popular-stocks__row-price { font-size: 13px; color: var(--text-muted); }
+.popular-stocks__row-change { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.popular-stocks__row-change--up { background: var(--success-bg); color: var(--success); }
+.popular-stocks__row-change--down { background: var(--danger-bg); color: var(--danger); }
+.popular-stocks__view-all { margin-top: 14px; font-size: 13px; font-weight: 600; color: var(--blue); width: 100%; text-align: center; padding: 8px; transition: opacity 0.15s ease; }
+.popular-stocks__view-all:hover { opacity: 0.75; }
+
+a.popular-stocks__view-all { display: block; text-decoration: none; }
